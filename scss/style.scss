@@ -365,8 +365,8 @@
         text-align: center;
         position: relative;
 
-      
-        img{
+
+        img {
             position: absolute;
             right: 0;
             bottom: 0;
@@ -374,27 +374,205 @@
         }
     }
 }
-.program-benifits{
+
+.program-benifits {
     background-color: #033567;
-    &__content{
+
+    &__content {
         background-color: #fff;
         border: 5px solid #036;
         border-radius: 20px;
         color: #036;
         padding: 30px;
         text-align: center;
-        &:hover{
+
+        &:hover {
             border: 5px solid #ff9416;
         }
+
         h6 {
             color: #ff9416;
             font-size: 20px;
             font-weight: 700;
         }
+
         p {
             font-size: 16px;
             font-weight: 300;
             color: #036;
         }
+    }
+}
+
+.teams {
+    &__details {
+        box-shadow: 0 0 16px #11111a1a;
+        column-gap: 30px;
+        display: flex;
+        height: 100%;
+        padding: 30px;
+
+        .img {
+            border-radius: 50%;
+            height: 100px;
+            overflow: hidden;
+            width: 100px;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+                object-position: top;
+                width: 100%;
+            }
+        }
+
+        .description {
+            h3 {
+                font-size: 25px;
+                font-weight: 800;
+                margin-bottom: 5px;
+            }
+
+            h6 {
+                color: #ff9438;
+                font-size: 16px;
+                font-weight: 700;
+                margin-bottom: 18px;
+                position: relative;
+
+                &:after {
+                    background-color: #ff9438;
+                    bottom: -9px;
+                    content: "";
+                    height: 1px;
+                    left: 0;
+                    position: absolute;
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
+
+.testimonial {
+    background-color: #033567;
+
+    .margin-top-80 {
+        margin-top: 60px;
+    }
+
+    &__details {
+        background-color: #fff;
+        border-radius: 20px;
+        height: 100%;
+        padding: 20px;
+        text-align: center;
+
+        img {
+            border-radius: 50%;
+            height: 150px;
+            margin-bottom: 20px;
+            margin-top: -90px;
+            object-fit: cover;
+            width: 150px;
+        }
+
+        h5 {
+            color: #ff9416;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+.faq {
+    background: #fdfdfd;
+    &__details {
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 2px 48px 0 #0000000f;
+    }
+
+    .accordion-flush .accordion-item:first-child {
+        border-top: 0;
+    }
+
+    .accordion-flush .accordion-item {
+        border-right: 0;
+        border-left: 0;
+        border-radius: 0;
+    }
+    button.accordion-button.collapsed {
+       
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .accordion-item:last-child{
+        border-bottom: 0px;
+
+    }
+}
+.partner-trust{
+    background-color: #033567;
+    img{
+        width: 100% !important;
+        height: 140px;
+        object-fit: contain;
+    }
+}
+.footer{
+    background-color: #000;
+    padding: 50px 0;
+    img{
+        width: 100%;
+    }
+    .qr{
+        width: 60%;
+    }
+    h5{
+        color: #fff;
+    font-size: 25px;
+    margin-bottom: 25px;
+    }
+    ul{
+        padding: 0;
+        li{
+            padding-bottom: 10px;
+            a{
+                color: #a0a0a0;
+                text-decoration: none;
+            }
+        }
+    }
+    .footerCopyRight {
+        border-top: 1px solid #fff;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .CopyRight h6 {
+        color: #fff;
+    }
+    ul.SocialMedia li a {
+        background-color: #fff;
+        border-radius: 5px;
+        color: #ff9e2b;
+        font-size: 18px;
+        padding: 5px 8px;
+    }
+    ul.SocialMedia {
+        column-gap: 20px;
+        display: flex
+    ;
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
 }
