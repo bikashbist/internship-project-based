@@ -57,7 +57,8 @@
         font-size: 32px;
     }
 }
-.enroll-yellow{
+
+.enroll-yellow {
     background-color: #ff9416;
     border: 0;
     border-radius: 12px;
@@ -70,6 +71,7 @@
     touch-action: manipulation;
     transition: box-shadow .2s;
 }
+
 .internship {
     background-color: #033567;
     padding: 50px 0;
@@ -102,14 +104,58 @@
         transition: box-shadow .2s;
     }
 }
-.carrer{
-    h1{
+
+.carrer {
+    h1 {
         color: #fff;
-        font-size: 40px;
+        font-size: 42px;
     }
-    span{
+
+    span {
         color: #ff9416;
-        font-size: 25px;
+        font-size: 26px;
         font-weight: 500;
+        line-height: 30px;
     }
+
+    &-program {
+        background-color: #75849d;
+        border-radius: 5px;
+        padding: 10px 15px;
+
+        img {
+            width: 40px;
+        }
+        h6{
+            color: #fff;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    }
+}
+.voice-of-succes{
+    background-color: #033567;
+    .success-video {
+        background: #fff;
+        padding: 15px;
+    }
+    .video-for-success {
+        height: 250px;
+    }
+    h4{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    h6{
+        color: #ff9416;
+        font-size: 15px;
+    }
+    p{
+        color: #000;
+    font-size: 14px;
+    margin: 0;
+    }
+    
+    
+   
 }
