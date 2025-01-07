@@ -306,3 +306,23 @@
     }
 
 }
+.gallery{
+    background-color: #033567;
+    .holder-left{
+        img{
+            cursor: pointer;
+            display: block;
+            height: 220px;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    .image-holdermiddle-top{
+        height: 320px;
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
