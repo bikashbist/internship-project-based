@@ -126,36 +126,183 @@
         img {
             width: 40px;
         }
-        h6{
+
+        h6 {
             color: #fff;
             font-size: 15px;
             margin-top: 10px;
         }
     }
 }
-.voice-of-succes{
+
+.voice-of-succes {
     background-color: #033567;
+
     .success-video {
         background: #fff;
         padding: 15px;
     }
+
     .video-for-success {
         height: 250px;
     }
-    h4{
+
+    h4 {
         font-size: 20px;
         margin-top: 15px;
     }
-    h6{
+
+    h6 {
         color: #ff9416;
         font-size: 15px;
     }
-    p{
+
+    p {
         color: #000;
-    font-size: 14px;
-    margin: 0;
+        font-size: 14px;
+        margin: 0;
     }
-    
-    
-   
+
+
+
+}
+
+.marque-section {
+    background-color: #033567;
+}
+
+.explore-courses {
+    align-items: center;
+    background-image: url(https://summers.upflairs.com/static/media/Banner-BG-NEW.5afa0173c0af4ca328f5.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 360px;
+    position: relative;
+
+    &:before {
+        background-color: #0369;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    h4 {
+        font-size: 40px;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    &__details {
+        color: #fff;
+        position: relative;
+    }
+}
+
+.registeration {
+
+    .form-nav-num {
+        background: #036;
+        border-radius: 100%;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+        padding: .5rem 1rem;
+        margin: 10px 6px;
+    }
+
+    .form-input {
+        border-color: #036;
+        border-width: 1px;
+        font-size: .875rem;
+        line-height: 1.25rem;
+        padding: .5rem .75rem;
+    }
+
+    .form-select-input {
+        padding: .5rem 1rem;
+        width: 100%;
+    }
+
+    select {
+        word-wrap: normal;
+    }
+
+    .form-row {
+        gap: .5rem;
+    }
+
+    .form-row,
+    .form-sub-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-label {
+        color: #036;
+        font-weight: 600;
+    }
+
+    .form-div {
+        grid-column-gap: 3rem;
+        grid-row-gap: 1rem;
+        column-gap: 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        row-gap: 1rem;
+    }
+
+    .form-submit-btn {
+        background-color: #ff9416;
+        border: none;
+        border-radius: 6px;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 700;
+        padding: .5rem 1rem;
+    }
+
+    .CounSec ul li {
+        border: 1px solid #ff94166b;
+        border-radius: 10px;
+        list-style: none;
+        padding: 10px 20px;
+        text-align: center;
+        width: 19%;
+    }
+
+    .CounSec ul li .icn {
+        margin-bottom: 20px;
+    }
+
+    .CounSec ul li .icn img {
+        width: 70px;
+    }
+
+    .CounSec ul li .con h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .CounSec ul li .con p {
+        font-size: 23px;
+    }
+
+    .CounSec ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .CounSec{
+        padding: 100px 0px 50px 0px;
+    }
+
 }

@@ -136,4 +136,124 @@
   color: #000;
   font-size: 14px;
   margin: 0;
+}
+
+.marque-section {
+  background-color: #033567;
+}
+
+.explore-courses {
+  align-items: center;
+  background-image: url(https://summers.upflairs.com/static/media/Banner-BG-NEW.5afa0173c0af4ca328f5.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 360px;
+  position: relative;
+}
+.explore-courses:before {
+  background-color: rgba(0, 51, 102, 0.6);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.explore-courses h4 {
+  font-size: 40px;
+  margin: 0 auto;
+  width: 70%;
+}
+.explore-courses__details {
+  color: #fff;
+  position: relative;
+}
+
+.registeration .form-nav-num {
+  background: #036;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 10px 6px;
+}
+.registeration .form-input {
+  border-color: #036;
+  border-width: 1px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.5rem 0.75rem;
+}
+.registeration .form-select-input {
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+.registeration select {
+  word-wrap: normal;
+}
+.registeration .form-row {
+  gap: 0.5rem;
+}
+.registeration .form-row,
+.registeration .form-sub-div {
+  display: flex;
+  flex-direction: column;
+}
+.registeration .form-label {
+  color: #036;
+  font-weight: 600;
+}
+.registeration .form-div {
+  grid-column-gap: 3rem;
+  grid-row-gap: 1rem;
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 1rem;
+}
+.registeration .form-submit-btn {
+  background-color: #ff9416;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+}
+.registeration .CounSec ul li {
+  border: 1px solid rgba(255, 148, 22, 0.4196078431);
+  border-radius: 10px;
+  list-style: none;
+  padding: 10px 20px;
+  text-align: center;
+  width: 19%;
+}
+.registeration .CounSec ul li .icn {
+  margin-bottom: 20px;
+}
+.registeration .CounSec ul li .icn img {
+  width: 70px;
+}
+.registeration .CounSec ul li .con h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.registeration .CounSec ul li .con p {
+  font-size: 23px;
+}
+.registeration .CounSec ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.registeration .CounSec {
+  padding: 100px 0px 50px 0px;
 }/*# sourceMappingURL=style.css.map */
